@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC2CD8C828D3870200CF4648 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2CD8C728D3870200CF4648 /* UserModel.swift */; };
+		EC2CD8CA28D3973C00CF4648 /* ProfiletableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2CD8C928D3973C00CF4648 /* ProfiletableViewCell.swift */; };
+		EC2CD8CC28D3A87200CF4648 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2CD8CB28D3A87200CF4648 /* EditViewController.swift */; };
+		EC2CD8CE28D4DE1E00CF4648 /* TextInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2CD8CD28D4DE1E00CF4648 /* TextInputTableViewCell.swift */; };
+		EC2CD8D028D4F35900CF4648 /* DateInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2CD8CF28D4F35900CF4648 /* DateInputTableViewCell.swift */; };
+		EC2CD8D228D4FB0800CF4648 /* GenderInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2CD8D128D4FB0800CF4648 /* GenderInputTableViewCell.swift */; };
 		EC3742E428D23E1700E5D800 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3742E328D23E1700E5D800 /* AppDelegate.swift */; };
 		EC3742E628D23E1700E5D800 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3742E528D23E1700E5D800 /* SceneDelegate.swift */; };
-		EC3742E828D23E1700E5D800 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3742E728D23E1700E5D800 /* ViewController.swift */; };
-		EC3742EB28D23E1700E5D800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3742E928D23E1700E5D800 /* Main.storyboard */; };
+		EC3742E828D23E1700E5D800 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3742E728D23E1700E5D800 /* ProfileViewController.swift */; };
 		EC3742ED28D23E1A00E5D800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3742EC28D23E1A00E5D800 /* Assets.xcassets */; };
 		EC3742F028D23E1A00E5D800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3742EE28D23E1A00E5D800 /* LaunchScreen.storyboard */; };
+		ECC72BEC28DA2A63000946C7 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC72BEB28DA2A63000946C7 /* SplashViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC2CD8C728D3870200CF4648 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		EC2CD8C928D3973C00CF4648 /* ProfiletableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfiletableViewCell.swift; sourceTree = "<group>"; };
+		EC2CD8CB28D3A87200CF4648 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		EC2CD8CD28D4DE1E00CF4648 /* TextInputTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputTableViewCell.swift; sourceTree = "<group>"; };
+		EC2CD8CF28D4F35900CF4648 /* DateInputTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateInputTableViewCell.swift; sourceTree = "<group>"; };
+		EC2CD8D128D4FB0800CF4648 /* GenderInputTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderInputTableViewCell.swift; sourceTree = "<group>"; };
 		EC3742E028D23E1700E5D800 /* ProfileAppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfileAppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3742E328D23E1700E5D800 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC3742E528D23E1700E5D800 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC3742E728D23E1700E5D800 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EC3742EA28D23E1700E5D800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC3742E728D23E1700E5D800 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		EC3742EC28D23E1A00E5D800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC3742EF28D23E1A00E5D800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC3742F128D23E1A00E5D800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC72BEB28DA2A63000946C7 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,61 @@
 		EC3742E228D23E1700E5D800 /* ProfileAppTest */ = {
 			isa = PBXGroup;
 			children = (
+				EC9E97E528D72219001FA221 /* Models */,
+				EC9E97E628D72228001FA221 /* Views */,
+				EC9E97E428D72208001FA221 /* ViewControllers */,
+				EC9E97E728D7225B001FA221 /* Application */,
+				EC9E97E828D72269001FA221 /* Resources */,
+			);
+			path = ProfileAppTest;
+			sourceTree = "<group>";
+		};
+		EC9E97E428D72208001FA221 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC3742E728D23E1700E5D800 /* ProfileViewController.swift */,
+				EC2CD8CB28D3A87200CF4648 /* EditViewController.swift */,
+				ECC72BEB28DA2A63000946C7 /* SplashViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EC9E97E528D72219001FA221 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC2CD8C728D3870200CF4648 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC9E97E628D72228001FA221 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC2CD8C928D3973C00CF4648 /* ProfiletableViewCell.swift */,
+				EC2CD8CD28D4DE1E00CF4648 /* TextInputTableViewCell.swift */,
+				EC2CD8CF28D4F35900CF4648 /* DateInputTableViewCell.swift */,
+				EC2CD8D128D4FB0800CF4648 /* GenderInputTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC9E97E728D7225B001FA221 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				EC3742E328D23E1700E5D800 /* AppDelegate.swift */,
 				EC3742E528D23E1700E5D800 /* SceneDelegate.swift */,
-				EC3742E728D23E1700E5D800 /* ViewController.swift */,
-				EC3742E928D23E1700E5D800 /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EC9E97E828D72269001FA221 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				EC3742EC28D23E1A00E5D800 /* Assets.xcassets */,
 				EC3742EE28D23E1A00E5D800 /* LaunchScreen.storyboard */,
 				EC3742F128D23E1A00E5D800 /* Info.plist */,
 			);
-			path = ProfileAppTest;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +185,6 @@
 			files = (
 				EC3742F028D23E1A00E5D800 /* LaunchScreen.storyboard in Resources */,
 				EC3742ED28D23E1A00E5D800 /* Assets.xcassets in Resources */,
-				EC3742EB28D23E1700E5D800 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +195,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC3742E828D23E1700E5D800 /* ViewController.swift in Sources */,
+				EC2CD8D228D4FB0800CF4648 /* GenderInputTableViewCell.swift in Sources */,
+				EC2CD8D028D4F35900CF4648 /* DateInputTableViewCell.swift in Sources */,
+				EC3742E828D23E1700E5D800 /* ProfileViewController.swift in Sources */,
 				EC3742E428D23E1700E5D800 /* AppDelegate.swift in Sources */,
+				EC2CD8CC28D3A87200CF4648 /* EditViewController.swift in Sources */,
+				EC2CD8CE28D4DE1E00CF4648 /* TextInputTableViewCell.swift in Sources */,
+				EC2CD8C828D3870200CF4648 /* UserModel.swift in Sources */,
+				EC2CD8CA28D3973C00CF4648 /* ProfiletableViewCell.swift in Sources */,
 				EC3742E628D23E1700E5D800 /* SceneDelegate.swift in Sources */,
+				ECC72BEC28DA2A63000946C7 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EC3742E928D23E1700E5D800 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC3742EA28D23E1700E5D800 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EC3742EE28D23E1A00E5D800 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +272,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +327,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,12 +347,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DTN97VNT76;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ProfileAppTest/Info.plist;
+				INFOPLIST_FILE = ProfileAppTest/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +363,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +376,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DTN97VNT76;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ProfileAppTest/Info.plist;
+				INFOPLIST_FILE = ProfileAppTest/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +392,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
